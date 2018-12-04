@@ -284,7 +284,7 @@ function makeCoin4() {
     coin4.visible = true;
     coin4.x = randomNumber(0,400);
     coin4.y = randomNumber(60, 300);
-  } else if (coin3Counted === true) {
+  } else if (coin4Counted === true) {
     coin4.visible = false;
   }
   if (flier.collide(coin4)) {
